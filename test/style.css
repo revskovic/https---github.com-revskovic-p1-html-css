@@ -1,0 +1,17 @@
+body{
+background-color: rgb(227, 220, 220);
+color: hsl(227, 220, 220);
+}
+
+ul{
+list-style-type: none;
+}
+table{
+border-style: solid;
+background-color: aquamarine;
+
+}
+td{
+    border-style: solid;
+    background-color: aqua;
+}
