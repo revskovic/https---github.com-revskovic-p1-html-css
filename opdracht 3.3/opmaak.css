@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
+ul{
+    list-style-type: none;
+    }
+    table{
+    border-style: solid;
+    background-color: rgb(160, 211, 198);
+    
+    }
+    td{
+        border-style: solid;
+        background-color: rgb(157, 187, 187);
+    }
+    th{
+border-style: solid;
+background-color: rgb(157, 187, 187);
+    }
