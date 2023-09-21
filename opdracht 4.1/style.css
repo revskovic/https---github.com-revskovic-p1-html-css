@@ -1,0 +1,18 @@
+h1{color: blue;}
+h1{  font-size: 24px;}
+h1{font-weight: bolder;}
+h1{font-style: italic;}
+
+h2{font-size: 20px;}
+h2{color: #0000ff;}
+h2{font-weight: bolder;}
+
+h3{font-size: 16px;}
+h3{color: teal;}
+h3{font-weight: bolder;}
+
+p{color: #4d4d4d;}
+p:first-of-type{font-weight: bolder;}
+
+a{color: #8a2be2;}
+a{text-decoration: none;}
