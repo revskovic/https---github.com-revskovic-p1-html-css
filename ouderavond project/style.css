@@ -1,0 +1,8 @@
+body{
+    background-color: beige;
+}
+header{
+    line-height: 16px;
+    padding-block-start: 1px;
+    outline-style: solid;
+}
