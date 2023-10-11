@@ -1,0 +1,41 @@
+.flex-container {
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+  }
+  .flex-container > :nth-child(1) {
+    background-color: rgb(224, 224, 197);
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+  }
+  .flex-container > :nth-child(2) {
+    background-color: rgb(224, 224, 197);
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+  }
+  .flex-container > :nth-child(3) {
+    background-color: rgb(224, 224, 197);
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+  }
+  .flex-container > :nth-child(4) {
+    background-color: rgb(224, 224, 197);
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+  }
+  .flex-container > :nth-child(5) {
+    background-color: rgb(224, 224, 197);
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+  }
+  .flex-container > :nth-child(6) {
+    background-color: rgb(224, 224, 197);
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+  }
