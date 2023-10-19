@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(ouderavond\ foto\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+}
+header {
+    background-color: #857777;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #857777;
+    color: #fff;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #857777;
+    left: 0;
+}
+nav ul li ul li {
+    display: block;
+}
+main {
+    padding: 20px;
+}
+a{color: aliceblue;}
