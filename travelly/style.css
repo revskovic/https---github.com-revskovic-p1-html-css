@@ -1,0 +1,320 @@
+
+.navbar {
+    background-color: #131c27;
+    overflow: hidden;}
+.navbar-left {
+    float: left;}
+.navbar-right {
+    float: right;}
+.navbar a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;}
+.navbar a:hover {
+    background-color: #555;}
+.boven{
+    background-image: url(landing-page.jpg); width: 100%; height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;}
+.h11{font-size: 80px;}
+.p1{font-size: 40px;}
+.bookbutton{
+    color: white;
+    background-color: #4c6e97;
+    width: 200px; height: 50px;}
+.midden1{
+    background-image: url(new-york-page.png); width: 100%; height: 900px;
+  color: white; 
+  background-color: rgb(170, 174, 176);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;}
+.h12{
+    font-size: 70px;
+    text-decoration: underline;}
+.p2{font-size: 35px;}
+.midden2{
+    background-color: #131c27;
+    color: white;
+    width: 100%; height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.h13{font-size: 55px;}
+.p3{font-size: 30px;}
+.midden3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+    .box {
+        width: 25%;
+        height: 400px;
+        border: 1px solid black;}
+
+    .black-quarter {
+        background-color: black;
+        height: 80px;}
+
+    .white-three-quarters {
+        background-color: white;
+        height: 100px;}
+.h14{display: flex;
+justify-content: center;}  
+.p4{font-size: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 77px;
+margin: 20px;} 
+.img1{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+width: 200px;}
+.beneden{background-color: rgb(170, 174, 176);
+    background-image: url(contact-mountain.png); width: 100%; height: 800px;}
+    .beneden{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+      .content {
+        background: rgba(50, 50, 50, 0.5);
+        border-radius: 15px;
+        width: 90%;
+        padding: 20px;
+        color: white; 
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      
+      table {
+        width: 100%;
+        margin: 20px 0;
+        background-color: rgba(50, 50, 50, 0.5);
+        border-radius: 10px;
+      }
+      
+      table, th, td {
+        border: 1px transparent rgba(50, 50, 50, 0.5);
+        border-collapse: collapse;
+      }
+      
+      th, td {
+        padding: 8px;
+        text-align: left;
+      }
+      
+      label {
+        font-weight: bold;
+      }
+      
+      input[type="text"],
+      input[type="email"] {
+        width: 50%;
+        padding: 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 4px;
+      }
+      
+      button {
+        width: 100%;
+        background-color: #4c6e97;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: #45a049;
+      }
+      @media only screen and (max-width: 768px) {
+        .navbar {
+          background-color: #131c27;
+          overflow: hidden;
+        }
+        .navbar-left {
+          float: left;
+        }
+        .navbar-right {
+          float: right;
+        }
+        .navbar a {
+          display: inline-block;
+          padding: 15px 20px;
+          color: white;
+          text-decoration: none;
+        }
+        .navbar a:hover {
+          background-color: #555;
+        }
+        .boven {
+          background-image: url(landing-page.jpg);
+          width: 100%;
+          height: 800px;
+          color: white;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+        }
+        .h11 {
+          font-size: 80px;
+        }
+        .p1 {
+          font-size: 40px;
+        }
+        .bookbutton {
+          color: white;
+          background-color: #4c6e97;
+          width: 200px;
+          height: 50px;
+        }
+        .midden1 {
+          background-image: url(new-york-page.png);
+          width: 100%;
+          height: 900px;
+          color: white;
+          background-color: rgb(170, 174, 176);
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+        }
+        .h12 {
+          font-size: 70px;
+          text-decoration: underline;
+        }
+        .p2 {
+          font-size: 35px;
+        }
+        .midden2 {
+          background-color: #131c27;
+          color: white;
+          width: 100%;
+          height: 300px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .h13 {
+          font-size: 55px;
+        }
+        .p3 {
+          font-size: 30px;
+        }
+        .midden3 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .box {
+          width: 25%;
+          height: 400px;
+          border: 1px solid black;
+        }
+        .black-quarter {
+          background-color: black;
+          height: 80px;
+        }
+        .white-three-quarters {
+          background-color: white;
+          height: 100px;
+        }
+        .h14 {
+          display: flex;
+          justify-content: center;
+        }
+        .p4 {
+          font-size: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 77px;
+          margin: 20px;
+        }
+        .img1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 70px;
+          width: 200px;
+        }
+        .beneden {
+          background-color: rgb(170, 174, 176);
+          background-image: url(contact-mountain.png);
+          width: 100%;
+          height: 800px;
+        }
+        .beneden {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+      
+        .content {
+          background: rgba(50, 50, 50, 0.5);
+          border-radius: 15px;
+          width: 90%;
+          padding: 20px;
+          color: white;
+          text-align: center;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+      
+        table {
+          width: 100%;
+          margin: 20px 0;
+          background-color: rgba(50, 50, 50, 0.5);
+          border-radius: 10px;
+        }
+      
+        table,
+        th,
+        td {
+          border: 1px transparent rgba(50, 50, 50, 0.5);
+          border-collapse: collapse;
+        }
+      
+        th,
+        td {
+          padding: 8px;
+          text-align: left;
+        }
+      
+        label {
+          font-weight: bold;
+        }
+      
+        input[type="text"],
+        input[type="email"] {
+          width: 50%;
+          padding: 6px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          margin-top: 4px;
+        }
+      
+        button {
+          width: 100%;
+          background-color: #4c6e97;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          padding: 10px;
+          cursor: pointer;
+        }
+      
+        button:hover {
+          background-color: #45a049;
+        }
+      }
